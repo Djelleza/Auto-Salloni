@@ -9,23 +9,25 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-links">
-        {/* Lista e linkeve */}
+  
         <div className="links">
           <ul>
             <li>Home</li>
-            <li>Veturat</li>
-            <li>Kontakti</li>
+            <li>Cars</li>
+            <li>Leasing Calculator</li>
+            <li>About</li>
+            <li>Contact</li>
           </ul>
         </div>
-        {/* Informacioni i kontaktit */}
+       
         <div className="contact-info">
-          <h3>Na kontaktoni</h3>
-          <p>Magjistralja Prishtinë - Ferizaj, Rr. Çagllavicë</p>
+          <h3>Contact Us</h3>
+          <p>"Highway Prishtina - Ferizaj, Çagllavicë Street"</p>
           <p>📞 +383 44 435 435</p>
-          <p>📧 info@autosallonialberti.net</p>
+          <p>📧 info@autosalloniluxury.net</p>
         </div>
       </div>
-      {/* Pjesa e rrjeteve sociale */}
+     
       <div className="footer-content">
         <div className="socialMedia">
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
@@ -41,7 +43,7 @@ function Footer() {
             <LinkedInIcon />
           </a>
         </div>
-        <p> &copy; 2024 autocarluxury.com | All Rights Reserved</p>
+        <p> &copy; 2024 autosalloniluxury.com | All Rights Reserved</p>
       </div>
     </div>
   );
