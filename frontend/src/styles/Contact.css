@@ -83,11 +83,11 @@
   
   .contact-info a {
     text-decoration: none;
-    color: #27ae60; /* Ngjyra e gjelbër për lidhjet */
+    color: #27ae60; 
   }
   
   .contact-info a:hover {
     text-decoration: underline;
-    color: #2c3e50; /* Ngjyra e ndryshuar gjatë kalimit me miun */
+    color: #2c3e50; 
   }
   
