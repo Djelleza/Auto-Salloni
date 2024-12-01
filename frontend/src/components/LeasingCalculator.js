@@ -17,9 +17,9 @@ const LeasingCalculator = () => {
 
   return (
     <div className="p-8 bg-white shadow-lg rounded-lg max-w-xl mx-auto text-center">
-      <h1 className="text-3xl font-bold text-gray-800 mb-4">Leasing Calculator</h1>
+      <h1 className="text-3xl font-bold text-gray-800 mb-4">Loan Calculator</h1>
       <p className="text-gray-600 mb-6">
-        Use our calculator to estimate your payment.
+        Use our calculator to estimate your loan payments.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
         <div>
@@ -53,7 +53,7 @@ const LeasingCalculator = () => {
           />
         </div>
         <div>
-          <label className="block text-sm font-semibold text-gray-700 mb-1">Advance Payment *</label>
+          <label className="block text-sm font-semibold text-gray-700 mb-1">Down Payment *</label>
           <input
             type="number"
             value={downPayment}

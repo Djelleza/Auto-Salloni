@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
-import "../styles/About.css"; 
+import "../styles/About.css"; // Add your custom CSS styling
 
 const About = () => {
   const [selectedQuestion, setSelectedQuestion] = useState(null);
