@@ -1,18 +1,33 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import Logo from "../assets/homePhotos/img2.png";
+import { Link } from "react-router-dom";
+import ReorderIcon from "@mui/icons-material/Reorder";
+import "../styles/Navbar.css";
 
+function Navbar() {
+  const [openLinks, setOpenLinks] = useState(false);
 
-const Navbar = () => (
-  <nav className="bg-purple-800 text-white shadow-md">
-    <div className="container mx-auto flex justify-between items-center py-4 px-6">
-      <Link to="/" className="text-2xl font-bold">Auto Sallon</Link>
+  const toggleNavbar = () => {
+    setOpenLinks(!openLinks);
+  };
 
-      <div className="flex space-x-4">
-        <Link to="/" className="text-pink-200 hover:text-white">Home</Link>
-        <Link to="/cars" className="text-pink-200 hover:text-white">Cars</Link>
+  return (
+    <nav className="navbar">
+      <div className="leftSide">
+        <img src={Logo} alt="Logo" />
       </div>
-    </div>
-  </nav>
-);
+      <div className={`rightSide ${openLinks ? "open" : ""}`}>
+        <Link to="/">Home</Link>
+        <Link to="/cars">Cars</Link>
+        <Link to="/leasingcalculator">Leasing Calculator</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+      </div>
+      <button className="menuButton" onClick={toggleNavbar}>
+        <ReorderIcon />
+      </button>
+    </nav>
+  );
+}
 
 export default Navbar;

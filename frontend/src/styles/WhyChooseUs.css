@@ -1,0 +1,40 @@
+.whyChooseUs {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .whyChooseUs h2 {
+    font-size: 2.5rem;
+    color: #121619;
+    margin-bottom: 30px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    max-width: 300px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #333;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

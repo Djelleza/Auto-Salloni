@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors());
-const PORT = 5000;
+const PORT = 5001;
 
 // JSON me të dhëna shembull
 const cars = [
