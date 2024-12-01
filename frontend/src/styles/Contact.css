@@ -1,0 +1,93 @@
+.contact-section {
+    background: #f7f7f7;
+    padding: 40px 20px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .contact-left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .contact-left h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-left p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-right {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-right form {
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px 10px;
+    background-color: #202023;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0a140a;
+  }
+  
+  .map-container {
+    margin-top: 40px;
+  }
+  
+  iframe {
+    border: 0;
+    border-radius: 10px;
+  }
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .contact-info li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+    color: #27ae60; /* Ngjyra e gjelbër për lidhjet */
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+    color: #2c3e50; /* Ngjyra e ndryshuar gjatë kalimit me miun */
+  }
+  
