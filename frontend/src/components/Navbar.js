@@ -22,6 +22,7 @@ function Navbar() {
         <Link to="/leasingcalculator">Leasing Calculator</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/dashboard">Dashboard</Link>
       </div>
       <button className="menuButton" onClick={toggleNavbar}>
         <ReorderIcon />
